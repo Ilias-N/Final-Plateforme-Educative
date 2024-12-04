@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>formulaire</title>
+        <link rel="stylesheet" href="formulaire.css"/>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="Page 1.html">Accueil</a></li>
+                <li><a href="Les Cours.html">Département</a></li>
+                <li><a href="formulaire.html">FeedBack</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+        <form>
+            <fieldset>
+                <legend><h2>Vos coordonnées</h2></legend>
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom :</label></td>
+                        <td><input type="text" id="nom" name="nom" placeholder="quelle est votre Nom" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Prénom :</label></td>
+                        <td><input type="text" id="prenom" name="prenom" placeholder="quelle est votre Prénom" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Mail :</label></td>
+                        <td><input type="email" id="mail" name="mail" placeholder="ecrivez votre mail ici.." size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Homme">Homme</label></td>
+                        <td><input type="radio" name="genre" value="Homme" id="Homme" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Femme">Femme</label></td>
+                        <td><input type="radio" name="genre" value="Femme" id="Femme" /></td>
+                    </tr>
+                </table> 
+            </fieldset>
+            <p>
+                <label for="expression"> Feedback: </label> <br>
+                <textarea id="expression"  name="expression" rows="8" cols="50" placeholder="comment trouvez-vous notre platforme?..."></textarea> 
+            </p>
+        </fieldset>
+    </form>
+    
+    <footer class="fotter-box">
+        <p><font color="white" >Plateforme éducative pour vous</font></p>
+        <p><font color="white">© Copyright 2024 - Tous droits réservés</font></p>
+    </footer>
+    
+</body>
+</html>

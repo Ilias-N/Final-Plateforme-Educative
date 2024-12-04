@@ -1,0 +1,213 @@
+body{
+    background: linear-gradient(#80C4E9,#FFF6E9);
+}
+
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Comic Sans Ms;
+    color: #FF7F3E;
+}
+
+
+
+
+.p-s1{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:center;
+    line-height: 1.6;
+}
+.h3-s1{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:center;
+    line-height: 1.6;
+}
+
+.Table-S1{
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 1.1em;
+    min-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.Table-S1 tr th{
+    background-color: #3A1078;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.Table-S1 th,
+.Table-S1 td {
+    padding: 12px 15px;
+}
+.Table-S1 tbody tr {
+    border:2px solid #3A1078;
+
+}
+.Table-S1 tbody tr:nth-of-type(even){
+    background-color: #F7F7F8;
+}
+
+
+.p-s2{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:center;
+    line-height: 1.6;
+}
+.h3-s2{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:center;
+    line-height: 1.6;
+}
+
+.p-last{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:justify;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+
+.Table-S2{
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 1.1em;
+    min-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.Table-S2 tr th{
+    background-color: #3A1078;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.Table-S2 th,
+.Table-S2 td {
+    padding: 12px 15px;
+}
+.Table-S2 tbody tr {
+    border:2px solid #3A1078;
+
+}
+.Table-S2 tbody tr:nth-of-type(even){
+    background-color: #F7F7F8;
+}
+
+h3{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:center;
+    line-height: 1.6;
+}
+
+.Les-cours{
+    font-weight: 600;
+    color: #FF7F3E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+
+} 
+.Les-cours-a{
+    color: #4335A7;
+}
+
+.NB{
+    margin-left: 40px;
+    text-align: left;
+}
+
+.Ul2{
+    font-weight: 600;
+    color: #4335A7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+
+
+.my-link{
+    font-weight: bold;
+    color: #4335A7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fotter-box{
+    background-color: #4335A7;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: end;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: #4335A7;
+    height: 70px;
+    width: 100%;
+    border-radius:0px 0px 10px 10px;
+}
+nav ul{
+    float: right;
+    margin:0px 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #FFF6E9;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    background: #80C4E9;
+    transition: .5s;
+}

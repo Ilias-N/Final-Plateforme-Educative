@@ -1,0 +1,122 @@
+body { 
+    background: linear-gradient(#80C4E9,#FFF6E9);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.h1-body{
+    color: #FF7F3E;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50;
+    margin: auto;
+    
+}
+
+.section1{
+
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+.h1-section-Pltforme{
+    color: #FF7F3E;
+    text-align : auto ;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.p-section{
+    box-sizing:border-box;
+    border: 3px solid#4335A7;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:justify;
+    line-height: 1.6;
+}
+
+h2,p{
+    color: #3A1078;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color:#856a28;
+    font-weight: normal;
+    font-family: Georgia (serif);   
+}
+
+footer {
+    
+    margin-top: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fotter-box{
+    background-color: #4335A7;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: end;
+}
+
+
+ div {
+    border: 2px solid Black; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: #4335A7;
+    height: 70px;
+    width: 100%;
+    border-radius:0px 0px 10px 10px;
+}
+nav ul{
+    float: right;
+    margin:0px 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #FFF6E9;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    background: #80C4E9;
+    transition: .5s;
+}
+
+
+
